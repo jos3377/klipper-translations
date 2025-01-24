@@ -14,7 +14,7 @@
 #       /home/klippy/.config/
 # For more Dockerfile examples with Klipper (and Octoprint) see:
 # https://github.com/sillyfrog/OctoPrint-Klipper-mjpg-Dockerfile
-FROM ubuntu:18.04
+FROM ubuntu:20.04
 
 RUN apt-get update && \
     apt-get install -y sudo
